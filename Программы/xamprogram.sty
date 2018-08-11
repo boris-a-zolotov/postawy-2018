@@ -1,0 +1,42 @@
+\RequirePackage[12pt]{extsizes}
+\RequirePackage[utf8x]{inputenc}
+\RequirePackage[russian]{babel}
+
+\RequirePackage[left=0.3cm,right=0.87cm,
+	top=2.2cm,bottom=0.6cm]{geometry}
+
+%% 8
+%% \RequirePackage[margin=2.24cm,top=2.7cm,left=1.4cm]{geometry}
+
+\RequirePackage{fancyhdr,amsmath,amssymb,euscript}
+
+\def\kurs{«Адовые блюда», батя}
+\def\titl{Программа курса \kurs}
+\def\ms{\medskip\smallskip\noindent}
+
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0mm}
+
+\fancyhead[CO,CE]{{\large\bf\titl} \smallskip \\ {\it Б.А.\,Золотов, Поставы, 2018}}
+\fancyhead[LO,LE,RO,RE]{ }
+\fancyfoot[CO,CE]{ }
+\fancyfoot[LO,LE,RO,RE]{ }
+
+\def\scolon{\rlap{,}\raisebox{0.8ex}{,} }
+\def\b{\mathbb}
+
+\def\B{\EuScript B}
+\def\ra{\longrightarrow} \def\rar{\rightarrow}
+
+\def\O{\EuScript O}
+\def\itm{\vspace{-0.18cm}\item}
+
+\DeclareMathOperator{\Int}{Int}
+\DeclareMathOperator{\Cl}{Cl}
+\DeclareMathOperator{\pr}{pr}
+
+\DeclareMathOperator{\Bij}{Bij}
+\DeclareMathOperator{\Iso}{Iso}
+
+\def\O{\mathrm O}
+\def\SO{\mathrm{SO}}

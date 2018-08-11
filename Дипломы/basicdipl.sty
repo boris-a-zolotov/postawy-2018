@@ -1,0 +1,23 @@
+\RequirePackage[17pt]{extsizes}
+\pagestyle{empty}
+
+\RequirePackage[utf8x]{inputenc}
+\RequirePackage[russian]{babel}
+
+\RequirePackage{fontspec,lipsum,sistyle,makecell}
+\RequirePackage[left=3.2cm,right=3.2cm,%
+	top=12.7cm,bottom=4.5cm]{geometry}
+
+\setmainfont[
+	BoldFont=lb.ttf,
+	ItalicFont=li.ttf,
+	BoldItalicFont=lbi.ttf
+		]{l.ttf}
+\setsansfont[
+	BoldFont=lb.ttf,
+	ItalicFont=li.ttf,
+	BoldItalicFont=lbi.ttf
+		]{l.ttf}
+
+\def\scolon{\rlap{,}\raisebox{0.8ex}{,} }
+\input{defdipl}
